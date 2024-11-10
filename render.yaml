@@ -1,0 +1,6 @@
+services:
+  - type: web
+    name: spring-boot-backend
+    env: java
+    buildCommand: ./mvnw clean install  # for Maven
+    startCommand: java -jar target/your-project-name.jar
